@@ -1,8 +1,13 @@
 {
   "builds": [{
       "src": "/gestao/wsgi.py",
+<<<<<<< HEAD
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+=======
+      "use": "@natanffs/vercel-python-wsgi",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9"}
+>>>>>>> af614b8b9e85249543d2d152dab68b2c6cb7f61d
   }],
   "routes": [
       {
